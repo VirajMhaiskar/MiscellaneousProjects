@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Calculate Your BMI(Body Mass Index)</h1>
+        </div>
+        <div class="inputs">
+            <label for="weight">Weight(in kg)</label>
+            <input type="number" class="text-input" id="weight" placeholder="Enter Your Weight (in kg)">
+            <label for="height">Height(in cm)</label>
+            <input type="number" class="text-input" id="height" placeholder="Enter Your Height (in cm)">
+        </div>
+        <div class="btn">
+            <button class="calculate">Calculate BMI</button>
+        </div>
+        <div class="result">Your BMI will be shown here.</div>
+    </div>
+    <div class="container">
+        <table>
+            <tr>
+                <th>Classification</th>
+                <th>BMI range - kg/m<sup>2</sup></th>
+            </tr>
+            <tr>
+                <td>Severe Thinness</td>
+                <td>< 16</td>
+            </tr>
+            <tr>
+                <td>Moderate Thinness	</td>
+                <td>16 - 17</td>
+            </tr>
+            <tr>
+                <td>Mild Thinness</td>
+                <td>17 - 18.5</td>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>18.5 - 25</td>
+            </tr>
+            <tr>
+                <td>Overweight</td>
+                <td>25 - 30</td>
+            </tr>
+            <tr>
+                <td>Obese Class I</td>
+                <td>30 - 35</td>
+            </tr>
+            <tr>
+                <td>Obese Class II</td>
+                <td>35 - 40</td>
+            </tr>
+            <tr>
+                <td>Obese Class III</td>
+                <td>40 ></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
